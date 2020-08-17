@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+  float B, H;
+  printf("\nInput value of B : ");
+  scanf("%f", &B);
+  printf("Input value of H : ");
+  scanf("%f", &H);
+  printf("\nArea of a Triangle is %.2f \n\n",0.5 * B * H);
+
+  return 0;
+}
